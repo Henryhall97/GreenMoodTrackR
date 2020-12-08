@@ -204,8 +204,8 @@ def get_twint_path(topic='Solar Energy', country='USA', time='(datetime.date(201
 
 def main():
     analysis = st.sidebar.selectbox(
-        "Select", ["Data Visualisation", "Live Analysis"])
-    if analysis == 'Data Visualisation':
+        "Select", ["Historical Data", "Live Analysis"])
+    if analysis == 'Historical Data':
         st.header('Sentiment')
         year = st.slider('Year', min_value=2010, max_value=2020)
         country_prediction = st.selectbox('Select Country', ['UK', 'USA'], 1)
