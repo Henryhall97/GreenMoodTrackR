@@ -1,8 +1,8 @@
 # Data analysis
 - Document here the project: green_mood_tracker
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+- Description: a sentiment detection platform utilising cutting edge deep learning modelling to understand the public mood towards issues around the clean energy transition.
+- Data Source: Stanford Twitter Corpus, STS-Gold Twitter data set.
+- Type of analysis: Sentiment Analysis
 
 Please document the project the better you can.
 
@@ -61,10 +61,10 @@ Functionnal test with a script:
 ```bash
   $ cd /tmp
   $ green_mood_tracker-run
-``` 
+```
 
 # Continus integration
-## Github 
+## Github
 Every push of `master` branch will execute `.github/workflows/pythonpackages.yml` docker jobs.
 ## Gitlab
 Every push of `master` branch will execute `.gitlab-ci.yml` docker jobs.
